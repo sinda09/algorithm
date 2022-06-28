@@ -1,0 +1,29 @@
+ALGORITHM TEST
+var
+s: STRING;
+nb_caracter: INTEGER: 0;
+nb_word : INTEGRE:= 0;
+nb_vo: InTEGRE: 0;
+i:= INTEGRE;
+BEGIN
+REPEAT
+ write ("write a sentence whitch ends withe a point")
+ read (s)
+ UNTIL  (s [i].length='-')
+ FOR i FROM 1 TO s.length step DO
+        if (s[i]<>"") then
+           nb_caracter:=nb_caracter+1;
+           END-IF;
+           IF (S[i]="")then
+              nb_caracter:=nb_caracter+1;
+              END_IF;
+              if(p[i] in ['a','e','u','i','o']) then
+              nb_vo:=nb_vo+1
+              END_IF;
+              End_FOR
+              write(s)
+              write(nb_caracter)
+              write(nb_word)
+              write(nb_vo)
+
+End
